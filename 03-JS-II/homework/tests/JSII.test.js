@@ -18,17 +18,22 @@ const {
 } = require('../homework');
 
 
-describe('obtenerMayor(x, y)', function() {
-  it('should return x if it is larger than y', function() {
-    expect(obtenerMayor(10, 5)).toBe(10);
-  });
+ function obtenerMayor(x, y);
+  var x=10
+  var y=5
+   if (x>y){
+      devolver (x) 
+   }
+   else{
+      devolver (y)    }
+  
   it('should return y if it is larger than x', function() {
     expect(obtenerMayor(50, 100)).toBe(100);
   });
   it('should return either one if they are the same', function() {
     expect(obtenerMayor(1000, 1000)).toBe(1000);
   });
-});
+
 
 describe('mayoriaDeEdad(edad)', function() {
   it('should return \'Allowed\'if edad is equal or greater than 18', function() {
